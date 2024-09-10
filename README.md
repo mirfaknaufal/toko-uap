@@ -17,6 +17,7 @@ Link PWS: http://mirfak-naufal-tokouap.pbp.cs.ui.ac.id/
 4. Melakukan add, commit, dan push kepada github dan PWS.
 
 ### Buatlah bagan yang berisi request client ke web aplikasi berbasis Django beserta responnya dan jelaskan pada bagan tersebut kaitan antara urls.py, views.py, models.py, dan berkas html.
+https://drive.google.com/file/d/1j8FsfsbHzdqzthDkdS4eSv9-jqq99bC4/view?usp=sharing
 
 ### Jelaskan fungsi git dalam pengembangan perangkat lunak!
 Git adalah sistem kontrol versi yang berfungsi untuk melacak perubahan kode sumber dalam pengembangan perangkat lunak. Git membantu menjaga kualitas kode, meningkatkan efisiensi kolaborasi, dan mempermudah manajemen proyek.
