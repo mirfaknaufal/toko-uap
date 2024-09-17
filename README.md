@@ -32,7 +32,23 @@ Model pada Django disebut sebagai ORM karena mereka menyederhanakan interaksi an
 
 ## Jawaban Pertanyaan Tugas 3
 
+### Jelaskan mengapa kita memerlukan data delivery dalam pengimplementasian sebuah platform?
+Data delivery diperlukan dalam pengimplementasian platform karena untuk memastikan data tersedia, dapat diakses tepat waktu, dan dapat dikirimkan dengan cara yang efisien. Data delivery juga diperlukan untuk meningkatkan skalabilitas. Dengan data delivery, platform dapat berfungsi dengan optimal.
+
+### Menurutmu, mana yang lebih baik antara XML dan JSON? Mengapa JSON lebih populer dibandingkan XML?
+JSON lebih baik dan lebih populer dibandingkan XML karena JSON memiliki struktur yang lebih sederhana dan ringkas, ukuran data yang lebih kecil, serta lebih cepat untuk diparse oleh bahasa pemrograman, terutama JavaScript. 
+
+### Jelaskan fungsi dari method is_valid() pada form Django dan mengapa kita membutuhkan method tersebut?
+Method is_valid() digunakan untuk memvalidasi input dari user. Kita membutuhkan method tersebut untuk mencegah data yang tidak valid, memudahkan menangani error, dan menyederhanakan proses validasi.
+
+### Mengapa kita membutuhkan csrf_token saat membuat form di Django? Apa yang dapat terjadi jika kita tidak menambahkan csrf_token pada form Django? Bagaimana hal tersebut dapat dimanfaatkan oleh penyerang?
+csrf_token diperlukan dalam form Django untuk melindungi aplikasi dari serangan Cross-Site Request Forgery (CSRF), di mana penyerang dapat mengeksploitasi sesi pengguna untuk mengirimkan permintaan berbahaya yang tampaknya sah. Tanpa csrf_token, data aplikasi rentan dimanipulasi oleh penyerang, karena tidak ada cara untuk memverifikasi bahwa permintaan berasal dari sumber yang sah. Token ini membantu memvalidasi permintaan dengan memastikan bahwa hanya permintaan yang menyertakan token yang valid yang diterima.
+
+### Jelaskan bagaimana cara kamu mengimplementasikan checklist di atas secara step-by-step
+1. 
+
 ### Mengakses keempat URL di poin 2 menggunakan Postman, membuat screenshot dari hasil akses URL pada Postman, dan menambahkannya ke dalam README.md.
+
 #### XML
 ![Screenshot 2024-09-17 222139](https://github.com/user-attachments/assets/c0cd0941-1a74-40fd-bef0-d0410b665e88)
 
