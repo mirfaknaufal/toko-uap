@@ -27,3 +27,6 @@ Django sering digunakan untuk pemula karena mudah untuk digunakan, arsitektur ya
 
 ### Mengapa model pada Django disebut sebagai ORM?
 Model pada Django disebut sebagai ORM karena mereka menyederhanakan interaksi antara aplikasi Python dan basis data relasional dengan cara yang terstruktur dan terstandarisasi. ORM Pada Django juga membantu mengurangi kebutuhan untuk menulis SQL secara langsung.
+---
+## Jawaban Pertanyaan Tugas 3
+
