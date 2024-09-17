@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-($-iajyw^c&mk!tcu%#+)xp@vr2hxs)3q^d&7xvon5xe)ts0yq
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["localhost", "127.0.0.1","mirfak-naufal-tokouap.pbp.cs.ui.ac.id"]
+ALLOWED_HOSTS = ["localhost", "127.0.0.1","mirfak-naufal-tokouap.pbp.cs.ui.ac.id", "https://pbp.cs.ui.ac.id/mirfak.naufal/tokouap"]
 
 
 # Application definition
@@ -55,7 +55,7 @@ ROOT_URLCONF = 'toko_uap.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [BASE_DIR / 'templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -122,3 +122,5 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+CSRF_TRUSTED_ORIGINS = ["http://localhost","http://127.0.0.1","http://pbp.cs.ui.ac.id/mirfak.naufal/tokouap", "https://pbp.cs.ui.ac.id/mirfak.naufal/tokouap","http://http://mirfak-naufal-tokouap.pbp.cs.ui.ac.id/", "https://http://mirfak-naufal-tokouap.pbp.cs.ui.ac.id/"]
