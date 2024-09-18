@@ -45,7 +45,13 @@ Method is_valid() digunakan untuk memvalidasi input dari user. Kita membutuhkan 
 csrf_token diperlukan dalam form Django untuk melindungi aplikasi dari serangan Cross-Site Request Forgery (CSRF), di mana penyerang dapat mengeksploitasi sesi pengguna untuk mengirimkan permintaan berbahaya yang tampaknya sah. Tanpa csrf_token, data aplikasi rentan dimanipulasi oleh penyerang, karena tidak ada cara untuk memverifikasi bahwa permintaan berasal dari sumber yang sah. Token ini membantu memvalidasi permintaan dengan memastikan bahwa hanya permintaan yang menyertakan token yang valid yang diterima.
 
 ### Jelaskan bagaimana cara kamu mengimplementasikan checklist di atas secara step-by-step
-1. 
+1. Membuat direktori baru pada root folder, menambahkan file base.html, mengonfigurasi file settings.py, dan mengubah file main.html.
+2. Mengubah primary key dari integer menjadi uuid dengan cara mengimport uuid ke models.py.
+3. Menambahkan file forms.py pada direktori main, import fungsi redirect pada file views.py, dan membuat fungsi baru pada views.py.
+4. Mengimport fungsi baru dari views.py ke urls.py, menambahkan path untuk mengakses fungsi yang diimport, lalu membuat berkas baru dengan nama file fungsi yang diimport sebelumnya.
+5. Mengimport fungsi HttpResponse dan serializers pada file views.py, lalu menambahkan fungsi baru untuk mengembalikan data dalam bentuk XML.
+6. Melakukan import fungsi yang baru ditambahkan pada step 5 ke urls.py, lalu menambahkan path untuk mengakses fungsi tersebut.
+7. Ulangi step 5 dan 6 untuk XML by id, JSON, dan JSON by id.
 
 ### Mengakses keempat URL di poin 2 menggunakan Postman, membuat screenshot dari hasil akses URL pada Postman, dan menambahkannya ke dalam README.md.
 
