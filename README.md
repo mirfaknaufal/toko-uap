@@ -72,14 +72,18 @@ csrf_token diperlukan dalam form Django untuk melindungi aplikasi dari serangan 
 <summary>Jawaban Pertanyaan Tugas 4</summary>
   
 ### Apa perbedaan antara HttpResponseRedirect() dan redirect()
-
+HttpResponseRedirect() dan redirect() di Django sama-sama digunakan untuk melakukan redirect ke URL yang berbeda, namun memiliki perbedaan dalam fleksibilitasnya. HttpResponseRedirect() hanya menerima URL dalam bentuk string dan mengembalikan respons HTTP 302. Sementara itu, redirect() lebih fleksibel, karena dapat menerima URL string, nama view yang akan di-resolve menjadi URL.
 
 ### Jelaskan cara kerja penghubungan model Product dengan User!
+Untuk menghubungkan model Product dengan User di Django, digunakan relasi ForeignKey pada model Product, yang mengaitkan setiap produk dengan user. Model Product akan memiliki field user yang merujuk ke model User melalui ForeignKey, dengan opsi on_delete=models.CASCADE agar produk yang dimiliki pengguna terhapus jika pengguna tersebut dihapus.
 
 ### Apa perbedaan antara authentication dan authorization, apakah yang dilakukan saat pengguna login? Jelaskan bagaimana Django mengimplementasikan kedua konsep tersebut.
+Authentication adalah proses memverifikasi identitas pengguna, sementara authorization adalah menentukan hak akses pengguna setelah terautentikasi. Saat login, Django melakukan authentication, dan jika berhasil, sistem menentukan authorization user.
 
 ### Bagaimana Django mengingat pengguna yang telah login? Jelaskan kegunaan lain dari cookies dan apakah semua cookies aman digunakan?
+Django mengingat pengguna yang telah login melalui cookies, dengan menyimpan sesi unik yang dikirim bersama setiap permintaan untuk mengenali pengguna. Cookies juga digunakan untuk menyimpan preferensi, melacak aktivitas, dan lain-lain.
 
 ### Jelaskan bagaimana cara kamu mengimplementasikan checklist di atas secara step-by-step
+
 
 </details>
