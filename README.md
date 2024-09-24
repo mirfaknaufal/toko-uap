@@ -7,7 +7,7 @@ Kelas: PBP A
 
 Link PWS: http://mirfak-naufal-tokouap.pbp.cs.ui.ac.id/
 <details>
-<summary>## Jawaban Pertanyaan Tugas 2</summary>
+<summary>Jawaban Pertanyaan Tugas 2</summary>
 
 ### Jelaskan bagaimana cara kamu mengimplementasikan checklist di atas secara step-by-step (bukan hanya sekadar mengikuti tutorial):
 
@@ -29,8 +29,8 @@ Django sering digunakan untuk pemula karena mudah untuk digunakan, arsitektur ya
 Model pada Django disebut sebagai ORM karena mereka menyederhanakan interaksi antara aplikasi Python dan basis data relasional dengan cara yang terstruktur dan terstandarisasi. ORM Pada Django juga membantu mengurangi kebutuhan untuk menulis SQL secara langsung.
 </details>
 ---
-
-## Jawaban Pertanyaan Tugas 3
+<details>
+<summary>Jawaban Pertanyaan Tugas 3</summary>
 
 ### Jelaskan mengapa kita memerlukan data delivery dalam pengimplementasian sebuah platform?
 Data delivery diperlukan dalam pengimplementasian platform karena untuk memastikan data tersedia, dapat diakses tepat waktu, dan dapat dikirimkan dengan cara yang efisien. Data delivery juga diperlukan untuk meningkatkan skalabilitas. Dengan data delivery, platform dapat berfungsi dengan optimal.
@@ -66,3 +66,4 @@ csrf_token diperlukan dalam form Django untuk melindungi aplikasi dari serangan 
 
 #### JSON by id
 ![Screenshot 2024-09-17 222250](https://github.com/user-attachments/assets/73ea618e-1a78-4b3a-a52d-8125a6e26984)
+</details>
