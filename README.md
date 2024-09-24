@@ -6,8 +6,8 @@ NPM: 2306244961
 Kelas: PBP A
 
 Link PWS: http://mirfak-naufal-tokouap.pbp.cs.ui.ac.id/
-
-## Jawaban Pertanyaan Tugas 2
+<details>
+<summary>## Jawaban Pertanyaan Tugas 2</summary>
 
 ### Jelaskan bagaimana cara kamu mengimplementasikan checklist di atas secara step-by-step (bukan hanya sekadar mengikuti tutorial):
 
@@ -27,7 +27,7 @@ Django sering digunakan untuk pemula karena mudah untuk digunakan, arsitektur ya
 
 ### Mengapa model pada Django disebut sebagai ORM?
 Model pada Django disebut sebagai ORM karena mereka menyederhanakan interaksi antara aplikasi Python dan basis data relasional dengan cara yang terstruktur dan terstandarisasi. ORM Pada Django juga membantu mengurangi kebutuhan untuk menulis SQL secara langsung.
-
+</details>
 ---
 
 ## Jawaban Pertanyaan Tugas 3
