@@ -84,6 +84,10 @@ Authentication adalah proses memverifikasi identitas pengguna, sementara authori
 Django mengingat pengguna yang telah login melalui cookies, dengan menyimpan sesi unik yang dikirim bersama setiap permintaan untuk mengenali pengguna. Cookies juga digunakan untuk menyimpan preferensi, melacak aktivitas, dan lain-lain.
 
 ### Jelaskan bagaimana cara kamu mengimplementasikan checklist di atas secara step-by-step
-
+1. Menyalankan virtual environtment, meng-import UserCreationForm dan messages. Menambahkan fungsi register pada views.py dan membuat file register.html pada direktori main/templates. Lalu melakukan routing pada urls.py
+2. Kembali ke views.py lalu meng-import authenticate dan login. Lalu menambahkan fungsi login pada views.py dan membuat login.html untuk tampilan login. Lalu melakukan routing pada urls.py
+3. Kembali ke views.py lalu meng-import logout. Lalu menambahkan fungsi logout pada views.py dan membuat logout.html untuk tampilan logout. Lalu melakukan routing pada urls.py
+4. Kembali ke views.py lalu meng-import login_required untuk merestriksi akses halaman main.
+5. 
 
 </details>
