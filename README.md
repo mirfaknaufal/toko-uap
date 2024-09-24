@@ -69,7 +69,7 @@ csrf_token diperlukan dalam form Django untuk melindungi aplikasi dari serangan 
 </details>
 
 <details>
-<summary>Jawaban Tugas 4</summary>
+<summary>Jawaban Pertanyaan Tugas 4</summary>
 ### Apa perbedaan antara HttpResponseRedirect() dan redirect()
 
 ### Jelaskan cara kerja penghubungan model Product dengan User!
