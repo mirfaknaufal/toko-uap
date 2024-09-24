@@ -89,6 +89,6 @@ Django mengingat pengguna yang telah login melalui cookies, dengan menyimpan ses
 3. Kembali ke views.py lalu meng-import logout. Lalu menambahkan fungsi logout pada views.py dan membuat logout.html untuk tampilan logout. Lalu melakukan routing pada urls.py
 4. Kembali ke views.py lalu meng-import login_required untuk merestriksi akses halaman main.
 5. Kembali lagi ke views.py dan meng-import HttpResponseRedirect, reverse, dan datetime. Mengupdate fungsi login_user untuk menambahkan last login, lalu mengupdate fungsi show_main untuk menambahkan informasi cookie last_login. Mengubah fungsi logout untuk menghapus cookies ketika logout. Lalu menambahkan tampilan kapan terakhir login pada main.html.
-6. Membuka models.py dan meng-import User. Lalu menambahkan block code 'user = models.ForeignKey(User, on_delete=models.CASCADE)' untuk mengaitkan Product dengan User.
+6. Membuka models.py dan meng-import User. Lalu menambahkan block code '''user = models.ForeignKey(User, on_delete=models.CASCADE)''' untuk mengaitkan Product dengan User.
 
 </details>
