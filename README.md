@@ -67,3 +67,17 @@ csrf_token diperlukan dalam form Django untuk melindungi aplikasi dari serangan 
 #### JSON by id
 ![Screenshot 2024-09-17 222250](https://github.com/user-attachments/assets/73ea618e-1a78-4b3a-a52d-8125a6e26984)
 </details>
+
+<details>
+<summary>Jawaban Tugas 4</summary>
+### Apa perbedaan antara HttpResponseRedirect() dan redirect()
+
+### Jelaskan cara kerja penghubungan model Product dengan User!
+
+### Apa perbedaan antara authentication dan authorization, apakah yang dilakukan saat pengguna login? Jelaskan bagaimana Django mengimplementasikan kedua konsep tersebut.
+
+### Bagaimana Django mengingat pengguna yang telah login? Jelaskan kegunaan lain dari cookies dan apakah semua cookies aman digunakan?
+
+### Jelaskan bagaimana cara kamu mengimplementasikan checklist di atas secara step-by-step
+
+</details>
