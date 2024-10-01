@@ -92,3 +92,19 @@ Django mengingat pengguna yang telah login melalui cookies, dengan menyimpan ses
 6. Membuka models.py dan meng-import User. Lalu menambahkan block code ```user = models.ForeignKey(User, on_delete=models.CASCADE)``` untuk mengaitkan Product dengan User.
 
 </details>
+
+<details>
+<summary> Jawaban Pertanyaan Tugas 5</summary>
+
+### Jika terdapat beberapa CSS selector untuk suatu elemen HTML, jelaskan urutan prioritas pengambilan CSS selector tersebut!
+
+### Mengapa responsive design menjadi konsep yang penting dalam pengembangan aplikasi web? Berikan contoh aplikasi yang sudah dan belum menerapkan responsive design!
+
+### Jelaskan perbedaan antara margin, border, dan padding, serta cara untuk mengimplementasikan ketiga hal tersebut!
+
+### Jelaskan konsep flex box dan grid layout beserta kegunaannya!
+
+### Jelaskan bagaimana cara kamu mengimplementasikan checklist di atas secara step-by-step!
+1. 
+  
+</details>
