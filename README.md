@@ -109,6 +109,11 @@ Margin adalah ruang di luar elemen, border adalah garis yang mengelilingi elemen
 Flexbox adalah sistem tata letak satu dimensi yang berguna untuk mengatur elemen secara fleksibel dalam satu baris atau kolom, sedangkan grid layout adalah sistem tata letak dua dimensi yang memungkinkan pengaturan elemen dalam baris dan kolom. Flexbox digunakan untuk tata letak sederhana seperti navigasi, sementara grid lebih cocok untuk tata letak yang kompleks seperti dashboard.
 
 ### Jelaskan bagaimana cara kamu mengimplementasikan checklist di atas secara step-by-step!
-1. 
+1. Menambahkan Tailwind ke dalam aplikasi Toko Uap.
+2. Buka file views.py dan tambahkan ```edit_product```. Menambahkan file ```edit_product.html``` pada direktori main/templates. Lalu mengimport fungsi dan menambahkan path ke urls.py. Lalu menambahkan edit button ke main.html
+3. Buka kembali file views.py dan tambahkan ```delete_product```. Lalu mengimport fungsi dan menambahkan path ke urls.py. Setelah itu menambahkan button di main.html
+4. Buka direktori templates di root directory, lalu menambahkan ```navbar.html```. Kemudian menambahkan block code ```{% include 'navbar.html' %}``` ke file main.html, create_product_entry.html, dan edit_product.html.
+5. Membuat direktori baru pada root directory yaitu direktori ```static/css```. Lalu tambahkan file ```global.css```. Setelah itu hubungkan ```global.css``` dan script Tailwind ke base.html. Lalu tambahkan custom styling ke ```global.css```.
+6. Setelah itu, kita bisa memulai untuk styling page-page seperti login, register, home page, dll.
   
 </details>
