@@ -97,12 +97,16 @@ Django mengingat pengguna yang telah login melalui cookies, dengan menyimpan ses
 <summary> Jawaban Pertanyaan Tugas 5</summary>
 
 ### Jika terdapat beberapa CSS selector untuk suatu elemen HTML, jelaskan urutan prioritas pengambilan CSS selector tersebut!
+Jika terdapat beberapa CSS selector untuk suatu elemen HTML, prioritas pengambilan ditentukan oleh spesifisitas. Urutan prioritasnya adalah inline styles, diikuti oleh ID selectors, class selectors, attribute selectors, dan pseudo-classes, kemudian element selectors dan pseudo-elements. Jika terdapat spesifisitas yang sama, aturan yang muncul terakhir di kode akan diterapkan.
 
 ### Mengapa responsive design menjadi konsep yang penting dalam pengembangan aplikasi web? Berikan contoh aplikasi yang sudah dan belum menerapkan responsive design!
+Responsive design penting agar tampilan aplikasi web dapat menyesuaikan berbagai ukuran layar perangkat, sehingga pengguna mendapatkan pengalaman yang optimal. Contoh aplikasi yang sudah menerapkan responsive design adalah YouTube, sementara contoh yang belum adalah beberapa situs lama yang hanya didesain untuk desktop.
 
 ### Jelaskan perbedaan antara margin, border, dan padding, serta cara untuk mengimplementasikan ketiga hal tersebut!
+Margin adalah ruang di luar elemen, border adalah garis yang mengelilingi elemen, dan padding adalah ruang di dalam elemen, antara konten dan border. Ketiga hal ini dapat diimplementasikan di CSS dengan properti margin, border, dan padding serta nilainya, contoh: ```margin: 10px; border: 1px solid black; padding: 5px;```.
 
 ### Jelaskan konsep flex box dan grid layout beserta kegunaannya!
+Flexbox adalah sistem tata letak satu dimensi yang berguna untuk mengatur elemen secara fleksibel dalam satu baris atau kolom, sedangkan grid layout adalah sistem tata letak dua dimensi yang memungkinkan pengaturan elemen dalam baris dan kolom. Flexbox digunakan untuk tata letak sederhana seperti navigasi, sementara grid lebih cocok untuk tata letak yang kompleks seperti dashboard.
 
 ### Jelaskan bagaimana cara kamu mengimplementasikan checklist di atas secara step-by-step!
 1. 
