@@ -115,5 +115,16 @@ Flexbox adalah sistem tata letak satu dimensi yang berguna untuk mengatur elemen
 4. Buka direktori templates di root directory, lalu menambahkan ```navbar.html```. Kemudian menambahkan block code ```{% include 'navbar.html' %}``` ke file main.html, create_product_entry.html, dan edit_product.html.
 5. Membuat direktori baru pada root directory yaitu direktori ```static/css```. Lalu tambahkan file ```global.css```. Setelah itu hubungkan ```global.css``` dan script Tailwind ke base.html. Lalu tambahkan custom styling ke ```global.css```.
 6. Setelah itu, kita bisa memulai untuk styling page-page seperti login, register, home page, dll.
-  
+</details>
+<details>
+<summary>Jawaban Pertannyaan Tugas 6</summary>
+### Jelaskan manfaat dari penggunaan JavaScript dalam pengembangan aplikasi web!
+
+### Jelaskan fungsi dari penggunaan await ketika kita menggunakan fetch()! Apa yang akan terjadi jika kita tidak menggunakan await?
+
+### Mengapa kita perlu menggunakan decorator csrf_exempt pada view yang akan digunakan untuk AJAX POST?
+
+### Pada tutorial PBP minggu ini, pembersihan data input pengguna dilakukan di belakang (backend) juga. Mengapa hal tersebut tidak dilakukan di frontend saja?
+
+### Jelaskan bagaimana cara kamu mengimplementasikan checklist di atas secara step-by-step!
 </details>
