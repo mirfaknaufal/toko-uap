@@ -117,8 +117,9 @@ Flexbox adalah sistem tata letak satu dimensi yang berguna untuk mengatur elemen
 6. Setelah itu, kita bisa memulai untuk styling page-page seperti login, register, home page, dll.
 </details>
 <details>
-<summary>Jawaban Pertannyaan Tugas 6</summary>
+<summary>Jawaban Pertanyaan Tugas 6</summary>
 ### Jelaskan manfaat dari penggunaan JavaScript dalam pengembangan aplikasi web!
+JavaScript sangat bermanfaat dalam pengembangan aplikasi web karena memungkinkan pembuatan antarmuka pengguna yang dinamis dan interaktif secara langsung di browser. Dengan JavaScript, pengembang dapat memperbarui konten halaman tanpa perlu memuat ulang seluruh halaman, memberikan pengalaman yang lebih responsif bagi pengguna. Selain itu, JavaScript juga mendukung integrasi API, manipulasi DOM, dan validasi data di sisi klien, yang meningkatkan efisiensi dan keamanan.
 
 ### Jelaskan fungsi dari penggunaan await ketika kita menggunakan fetch()! Apa yang akan terjadi jika kita tidak menggunakan await?
 
