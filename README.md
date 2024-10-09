@@ -118,14 +118,18 @@ Flexbox adalah sistem tata letak satu dimensi yang berguna untuk mengatur elemen
 </details>
 <details>
 <summary>Jawaban Pertanyaan Tugas 6</summary>
+  
 ### Jelaskan manfaat dari penggunaan JavaScript dalam pengembangan aplikasi web!
 JavaScript sangat bermanfaat dalam pengembangan aplikasi web karena memungkinkan pembuatan antarmuka pengguna yang dinamis dan interaktif secara langsung di browser. Dengan JavaScript, pengembang dapat memperbarui konten halaman tanpa perlu memuat ulang seluruh halaman, memberikan pengalaman yang lebih responsif bagi pengguna. Selain itu, JavaScript juga mendukung integrasi API, manipulasi DOM, dan validasi data di sisi klien, yang meningkatkan efisiensi dan keamanan.
 
 ### Jelaskan fungsi dari penggunaan await ketika kita menggunakan fetch()! Apa yang akan terjadi jika kita tidak menggunakan await?
+Fungsi ```await``` saat menggunakan ```fetch()``` adalah untuk menghentikan eksekusi kode hingga permintaan jaringan selesai dan hasilnya dikembalikan, sehingga kita bisa menangani respons atau kesalahan secara sinkron. Tanpa ```await```, ```fetch()``` akan mengembalikan promise yang belum selesai, menyebabkan kode berikutnya berjalan sebelum hasil permintaan diterima. Ini dapat menyebabkan penggunaan data yang belum tersedia, misalnya ketika mencoba mengakses respons dari ```fetch()``` sebelum server merespons, yang dapat mengakibatkan bug.
 
 ### Mengapa kita perlu menggunakan decorator csrf_exempt pada view yang akan digunakan untuk AJAX POST?
+Kita perlu menggunakan decorator ```csrf_exempt``` pada view yang digunakan untuk AJAX POST jika permintaan tersebut tidak menyertakan token CSRF (Cross-Site Request Forgery). Secara default, Django mengharuskan setiap permintaan POST dari klien yang terautentikasi untuk menyertakan token CSRF demi keamanan. Jika tidak, Django akan memblokir permintaan tersebut sebagai perlindungan terhadap serangan CSRF. Namun, dalam beberapa kasus seperti AJAX POST dari sumber tertentu, token CSRF mungkin tidak disertakan, sehingga decorator ini digunakan untuk menonaktifkan pemeriksaan CSRF pada view tertentu. Meski begitu, ini perlu digunakan dengan hati-hati agar tidak melemahkan keamanan aplikasi.
 
 ### Pada tutorial PBP minggu ini, pembersihan data input pengguna dilakukan di belakang (backend) juga. Mengapa hal tersebut tidak dilakukan di frontend saja?
+Pembersihan data input pengguna perlu dilakukan di backend karena validasi di frontend saja tidak cukup aman. Meskipun frontend bisa mencegah beberapa kesalahan input, penyerang dapat memanipulasi data sebelum dikirim ke server, melewati validasi frontend. Backend memastikan bahwa semua data yang masuk valid dan aman sebelum diproses atau disimpan di server, melindungi aplikasi dari serangan seperti injeksi SQL atau XSS. Validasi di backend juga menjaga konsistensi aturan untuk semua input, terlepas dari bagaimana data dikirim.
 
 ### Jelaskan bagaimana cara kamu mengimplementasikan checklist di atas secara step-by-step!
 </details>
