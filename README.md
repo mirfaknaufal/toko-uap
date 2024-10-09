@@ -132,4 +132,9 @@ Kita perlu menggunakan decorator ```csrf_exempt``` pada view yang digunakan untu
 Pembersihan data input pengguna perlu dilakukan di backend karena validasi di frontend saja tidak cukup aman. Meskipun frontend bisa mencegah beberapa kesalahan input, penyerang dapat memanipulasi data sebelum dikirim ke server, melewati validasi frontend. Backend memastikan bahwa semua data yang masuk valid dan aman sebelum diproses atau disimpan di server, melindungi aplikasi dari serangan seperti injeksi SQL atau XSS. Validasi di backend juga menjaga konsistensi aturan untuk semua input, terlepas dari bagaimana data dikirim.
 
 ### Jelaskan bagaimana cara kamu mengimplementasikan checklist di atas secara step-by-step!
+1. Mengimport ```csrf_exempt``` dan ```require_POST``` pada views.py. Lalu menambahkan fungsi untuk menambahkan entry product menggunakan AJAX. Lalu melakukan routing untuk fungsi tersebut pada urls.py.
+2. Pada views.py kita mengubah bagian data pada ```show_json``` dan ```show_xml```. Lalu pada main.html, kita menambahkan function untuk ```fetch``` data. Kita juga menambahkan function untuk me-refresh data.
+3. Menambahkan modal pada main.html serta fungsi-fungsi yang diperlukan. Tambahkan juga button untuk membuat entry product menggunakan AJAX.
+4. Menambahkan function pada main.html yaitu ```addProduct()```. Lalu tambahkan event listener untuk menjalankan function ```addProduct()```.
+5. Pada views.py dan forms.py, import ```strip_tags```. Lalu gunakan fungsi ```strip_tags``` pada data ```nama```, ```review```, dan ```description```. Lalu tambahkan method pada forms.py untuk ketiga data tersebut.
 </details>
